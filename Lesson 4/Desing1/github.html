@@ -7,39 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github</title>
     <style>
-            body {width: auto; height: auto; overflow-y: hidden; margin: auto; text-align: center;}
-
+       body {
+        width: 40vw;
+        height: 100vh;
+        overflow-y: hidden;
+        margin: 25% auto auto auto;
+        text-align: center;
+        list-style-type: none;
+    }     
     </style>
 </head>
 
 <body>
-    <img src="/lesson 4/Desing1/images/logo.png" alt="logo" ; width="10%" ; height="10%">
+    <img src="/lesson 4/Desing1/images/logo.png" alt="logo"; width="150px"; height="150px">
     <h1>Sign in GitHub</h1>
-    <div class="container">
-        <label for="uname"><b>Username or email address</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-        <br>
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-        <br>
-        <button type="submit">Sign in</button>
-        <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-        <br>
-        <p>New to GitHub. <a
-                href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home"
-                target="_blank">Create an account?</a></p>
 
-        <ul>
-            <li>Terms</li>
-            <li>Privacy</li>
-            <li>Security</li>
-            <li>Contact GitHub</li>
-        </ul>
+    <form>
+        <label>Username or email address</label>
+        <input/>
 
+        <div>
+            <label>Password</label>
+            <label>Forget password?</label>
+        </div>
+        <input type="password" name "password">
+        <button type="submit">Sign in</button>        
+    </form>
+    <div>
+        <p>
+            New to GitHub? <span>Create an account</span>
+        </p>
     </div>
 
+    <ul>
+        <li>
+            <a>Terms</a>
+        </li>
+        <li>
+            <a>Privacy</a>
+        </li>
+        <li>
+            <a>Security</a>
+        </li>
+        <li>
+            <a>Contact GitHub</a>
+        </li>
+    </ul>
 </body>
-
 </html>
