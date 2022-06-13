@@ -6,52 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github</title>
-    <style>
-       body {
-        width: 40vw;
-        height: 100vh;
-        overflow-y: hidden;
-        margin: 10% auto auto auto;
-        text-align: center;
-    }     
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
 </head>
 
 <body>
-    <img src="/Lesson 6/Class example/GitHub/images/logo.png" alt="logo"; width="100px"; height="100px">
-    <h1>Sign in GitHub</h1>
-
-    <form>
-        <label>Username or email address</label>
-        <input/>
-
-        <div>
-            <label>Password</label>
-            <label>Forget password?</label>
+    <header>
+        <h1>Sign in to GitHub</h1>
+    </header>
+    <div id="loginbox">
+        <label id="login">
+            <p>Username or email address</p>
+            <input type="text">
+        </label>
+        <label id="password">
+            <p>Password <a href="#">Forgot Password?</a></p>
+            <input type="password">
+        </label>
+        <input type="submit" value="Sign in">
+        <div id="new">
+            <p>New to GitHub? <a href="#">Create an account.</a></p>
         </div>
-        <input type="password" name "password">
-        <button type="submit">Sign in</button>        
-    </form>
-    <div>
-        <p>
-            New to GitHub? <span>Create an account</span>
-        </p>
-    </div>
-
-    <ul>
-        <li>
-            <a>Terms</a>
-        </li>
-        <li>
-            <a>Privacy</a>
-        </li>
-        <li>
-            <a>Security</a>
-        </li>
-        <li>
-            <a>Contact GitHub</a>
-        </li>
-    </ul>
-
+        <div id="list">
+            <ul>
+                <li class="m3"><a href="#">Terms</a></li>
+                <li class="m3"><a href="#">Privacy</a></li>
+                <li class="m3"><a href="#">Security</a></li>
+                <li class="m3"><a href="#" id="contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>   
 </body>
 </html>
