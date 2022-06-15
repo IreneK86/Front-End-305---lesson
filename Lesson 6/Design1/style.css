@@ -1,4 +1,50 @@
-.screen {
-    background-color: cornflowerblue;
-    border: 1px;
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Poppins:wght@300&display=swap');
+
+body {
+    background-color: lightblue;
+    overflow-y: hidden;
+
+}
+
+.screen__image {
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    float: left;
+    top: 18%;
+    left: 5%
+}
+
+h4 {font-size: 400%;
+  color: white;          
+
+}
+
+h3 {font-size: 450%;
+    color: rgb(12, 12, 75);
+
+}
+
+h2 {font-size: 480%;
+    color: rgb(6, 6, 46);
+
+}
+
+.maintitle {
+    float:right;
+    margin-top: 3%;
+    margin-right: 20%;
+    text-align: center;
+
+}
+
+button {
+    font-size: 200%;
+    background: rgb(6, 6, 46);
+    color: whitesmoke;
+    float: right;
+    position: absolute;
+    bottom: 12%;
+    right: 15%;
+    
 }
