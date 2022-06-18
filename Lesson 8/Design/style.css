@@ -1,18 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Poppins:wght@300&display=swap');
+
 body {
     padding-left: 5vw;
     padding-right: 5vw;
 }
 
-header {
+navigation {
     margin-top: 42px;
 }
 
-.header__logo {
+.navigation__logo {
     width: 25%;
     float: left;
 }
 
-.header__menue {
+.navigation__menue {
     width: 60%;
     float: right;
 }
@@ -47,4 +49,74 @@ header {
 .btn-alert {
     background-color: #FF9900;
     color: white;
+}
+
+.header__logo {
+    float: right;
+    width: 605px;
+    height: 496px;
+    left: 658px;
+    top: 131px;
+    
+}
+
+.header__content {
+    width: 1126px;
+    height: 496px;
+    left: 137px;
+    top: 131px;
+}
+
+.header__content-text {
+    width: 518px;
+    height: 233px;
+    left: 137px;
+    top: 214px;
+
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+p {font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;    
+    color: #544837;
+
+}
+
+.header__btns {
+    float: left;
+    width: 366px;
+    height: 53px;
+    left: 137px;
+    top: 60px;
+}
+
+.footer__logo {
+
+}
+
+.footer__menu {
+
+}
+
+.quick__links {
+
+}
+
+.legalstuff__links {
+
+}
+
+.footer__btn {
+
 }
