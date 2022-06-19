@@ -1,0 +1,17 @@
+body {
+    background-color: coral;
+}
+
+
+.fruitbox__wrapper {
+    width: 230px;
+    height: 250px;
+    margin: 3px;  
+    padding: 6px;
+    text-align: center;
+    background-color: white;
+    float:left;
+    border: solid coral;
+
+    
+}
