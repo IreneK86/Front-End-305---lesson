@@ -31,6 +31,7 @@ navigation {
 
 .menue__btns {
     float: right;
+
 }
 
 .menue__btn {
@@ -50,32 +51,24 @@ navigation {
     background-color: #FF9900;
     color: white;
 }
-
 .header__logo {
     float: right;
     width: 605px;
     height: 496px;
-    left: 658px;
     top: 131px;
-    
-}
-
-.header__content {
-    width: 1126px;
-    height: 496px;
-    left: 137px;
-    top: 131px;
+    right: 137px;
 }
 
 .header__content-text {
     width: 518px;
-    height: 233px;
-    left: 137px;
-    top: 214px;
-
+    height: 55px;
+    float: left;
 }
 
 h1 {
+    width: 518px;
+    height: 55px;
+    top: 214px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -84,39 +77,96 @@ h1 {
     color: #2F281E;
 }
 
-p {font-family: 'Poppins';
+p {
+    width: 458px;
+    height: 95px;
+    left: 137px;
+    margin-top: 20%;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 28px;    
+    line-height: 28px;
     color: #544837;
-
 }
 
 .header__btns {
-    float: left;
+    position: absolute;
     width: 366px;
     height: 53px;
-    left: 137px;
-    top: 60px;
 }
+
+.btn-start {
+    width: 175px;
+    height: 53px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #FF9900;
+    color: white;
+
+}
+
+.btn-watch {
+    width: 161px;
+    height: 23px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    background: none;
+    color: #FF9900;
+
+}
+ 
 
 .footer__logo {
-
-}
-
-.footer__menu {
-
+    position: absolute;
+    width: 185px;
+    height: 32px;
+    left: 85px;
+    bottom: 150px;
 }
 
 .quick__links {
-
+    position: absolute;
+    width: 118px;
+    height: 130px;
+    left: 450px;
+    bottom: 15px;
+    
+    
 }
 
 .legalstuff__links {
-
+    position: absolute;
+    width: 131px;
+    height: 130px;
+    left: 650px;
+    bottom: 15px;
+    
 }
 
 .footer__btn {
+    position: absolute;
+    right: 450px;
+    bottom: 89px;
 
 }
+
+.footer__btn-signup {
+    float: right;
+    width: 131px;
+    height: 39px;
+    top: 160px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #FF9900;
+    color: white;
+
+}
+
+li {
+    list-style-type: none;
+}
+
