@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-repeat: none; 
+
+}
+
+li {
+    list-style-type: none;
+}
+
+navigation {
+    background: url(stephen-leonardi-Al9Cl-b7EFU-unsplash.jpg);
+    background: linear-gradient(0.87deg, rgba(2, 55, 135, 0.9) 0.69%, rgba(81, 38, 174, 0.4736) 100.48%, rgba(38, 92, 174, 0.0102906) 100.49%, rgba(195, 195, 196, 0.00520833) 100.5%, #76A6EF 100.51%);
+        
+        
+}
+
+.navigation__logo {
+    float: left;
+    margin-top: 42px;
+    margin-left: 100px;
+}
+
+.navigation__menu {
+    float: right;
+    margin-top: 25px;
+    margin-right: 305px;
+}
+
+.menu__links li {
+    margin-right: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: inline;
+    color: white;
+    cursor: pointer; 
+}
+
+h1 {
+    position: absolute;
+    width: 821px;
+    height: 143px;
+    left: 100px;
+    top: 239px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    color: #FFFFFF;
+}
+
+p {
+    position: absolute;
+    width: 789px;
+    height: 74px;
+    left: 110px;
+    top: 433px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    color: #FFFFFF;
+
+}
+
+.header__icons {
+    position: absolute;
+    width: 1241px;
+    height: 174px;
+    left: 100px;
+    top: 618px;
+    background: #FFFFFF;
+    box-shadow: 6px 9px 59px 3px rgba(0, 0, 0, 0.01);
+}
+
+.footer__logo {
+    position: absolute;
+    width: 165px;
+    height: 36px;
+    left: 104px;
+    top: 5950px;
+}
