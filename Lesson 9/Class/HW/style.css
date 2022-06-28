@@ -2,8 +2,7 @@
 
 body {
     margin: 0;
-    background-image: url("imgs/stephen-leonardi-Al9Cl-b7EFU-unsplash\ 1.png");
-    background-color: linear-gradient (0.87deg, rgba(2, 55, 135, 0.9) 0.69%, rgba(81, 38, 174, 0.4736) 100.48%, rgba(38, 92, 174, 0.0102906) 100.49%, rgba(195, 195, 196, 0.00520833) 100.5%, #76A6EF 100.51%);
+    background-image: url("imgs/stephen-leonardi-Al9Cl-b7EFU-unsplash\ 1.png") rgba(81, 38, 174, 0.4736);
     background-position: center;
     height: 865px;
     background-size: cover;
