@@ -2,12 +2,11 @@
 
 body {
     margin: 0;
-    background-image: url("imgs/stephen-leonardi-Al9Cl-b7EFU-unsplash\ 1.png") rgba(81, 38, 174, 0.4736);
+    background-image: url("imgs/stephen-leonardi-Al9Cl-b7EFU-unsplash\ 1.png");
     background-position: center;
     height: 865px;
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
 
 }
 
