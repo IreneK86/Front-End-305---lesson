@@ -2,7 +2,8 @@
 
 body {
     margin: 0;
-    background-image: url("imgs/stephen-leonardi-Al9Cl-b7EFU-unsplash\ 1.png");
+    background: url("imgs/stephen-leonardi-Al9Cl-b7EFU-unsplash\ 1.png") rgba(31, 2, 144, 0.6);
+    background-blend-mode: multiply;
     background-position: center;
     height: 865px;
     background-size: cover;
