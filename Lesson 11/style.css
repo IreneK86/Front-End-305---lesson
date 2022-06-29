@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
 
 body {
-    margin:0;
+    margin: 0;
     overflow: hidden;
 
 }
@@ -114,13 +114,26 @@ body {
     background: #ED9B59;
 }
 
+.dating__profile-couple {
+    background-image: url(./imgs/couple.svg);
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 90vh;
+    position: fixed;
+    float: right;
+    left: 679px;
+    top: 108px;
+    z-index: 20;
+}
+
 .mainpage_content-text {
     width: 60%;
-    height: 80vh;
-    padding-left: 70px;
+    height: 25%;
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    top: 207px;
 }
 
 .first-line {
@@ -159,33 +172,12 @@ body {
     border-radius: 40px;
 }
 
-.input type="text"{
-    width: 515px;
-    height: 68px;
-    background: #FFFFFF;
-    border-radius: 40px;
-}
-
-.dating__profile {
-    width: 60%;
-    height: 90vh;
-    background-image: url('./imgs/couple.svg');
-    background-position: left bottom;
-    background-size: 100% 85%;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    position: relative;
-    z-index: 20;
-}
-
 .dating__profile-selection {
     height: 300px;
     width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: right;
 }
 
 .dating__profile-card {
@@ -217,18 +209,4 @@ body {
 .dating__profile-detail > div {
     display: flex;
     flex-direction: column;
-}
-
-.love-circle {
-    height: 75px;
-    width: 75px;
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(30px);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 110px;
-    bottom: 30%;
 }
