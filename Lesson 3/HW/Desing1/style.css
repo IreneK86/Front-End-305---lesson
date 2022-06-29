@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+body {
+    font-family: Barlow;
+    background-color: lightskyblue;
+    margin: 10px;
+}
+
+.contactinformation {
+    width: 10%;
+    height: 20%;
+    padding-left: 10px;
+    position: relative;
+    margin: 5px
+    
+    
+}
+
+.personalinformation {
+    width: 10%;
+    height: 20%;
+    padding-left: 10px;
+    position: relative;
+    margin: 5px
+
+}
+
+.myprofile {
+    width: 35%;
+    height: 40%;
+    padding-left: 10px;
+    position: relative;
+    margin: 5px
+}
+
+.employment {
+    width: 40%;
+    height: 30%;
+    padding-left: 10px;
+    position: relative;
+    margin: 5px
+
+}
+
+.myeducation {
+    width: 40%;
+    height: 30%;
+    padding-left: 10px;
+    position: relative;
+    margin: 5px
+
+}
+
+.mycourses {
+    width: 40%;
+    height: 35%;
+    padding-left: 10px;
+    position: relative;
+    margin: 5px
+}
+
+.certificate {
+    width: 40%;
+    height: 35%;
+    padding-left: 10px;
+    position: relative;
+    margin: 5px
+}
+
+.language {
+    width: 25%;
+    height: 25%;
+    padding-left: 10px;
+    position: relative;
+    margin: 5px
+
+}
