@@ -3,27 +3,36 @@ body {
 
 }
 
-.navigation {
-    width: 100vh;
+.life-change {
+    width: 100vw;
     height: 80vh;
     padding-top: 50px;
 
 }
 
-.navigation__content {
-    height: 40px;
-    width: 70%;
+.life-change__navigation {
+    height: 60px;
+    width: 100%;
     padding-left: 5%;
+    align-self: flex-start;
+
+}
+
+.navigation__content {
+    height: 100%;
+    width: 25%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    
 }
 
 .navigation__content-apps {
-    width: 153px;
-    height: 60px;
+    width: 140px;
+    height: 100%;
     border: 1px solid #E6E6E6;
     border-radius: 16px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
