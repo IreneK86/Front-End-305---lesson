@@ -1,0 +1,29 @@
+body {
+    margine:0;
+
+}
+
+.navigation {
+    width: 100vh;
+    height: 80vh;
+    padding-top: 50px;
+
+}
+
+.navigation__content {
+    height: 40px;
+    width: 70%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__content-apps {
+    width: 153px;
+    height: 60px;
+    border: 1px solid #E6E6E6;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
