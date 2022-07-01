@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,500&display=swap');
+
 body {
-    margine:0;
+    margine: 0;
 
 }
 
 .life-change {
     width: 100vw;
-    height: 80vh;
-    padding-top: 50px;
+    height: 85vh;
+    padding-top: 48px;
+    background-image: url(./imgs/lady.svg), url(./imgs/bg.svg);
+    background-position: 85% 0, right -100px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50% , contain;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -28,11 +36,54 @@ body {
 }
 
 .navigation__content-apps {
-    width: 140px;
+    width: 135px;
     height: 100%;
     border: 1px solid #E6E6E6;
     border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.life-change__maintext {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    align-self: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #130F49;
+
+}
+
+p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #0B0736;
+}
+
+button {
+    width: 186px;
+    background-color: #130F49;
+    border: none;
+    color: white;
+    padding: 27px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
 }
