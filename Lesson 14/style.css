@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.squid-game {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.squid-game__navigation {
+    height: 120px;
+    display: grid;
+    grid-template-columns: 20% 35% 10%;
+    padding-top: 30px;
+    grid-column-gap: 15%;
+    padding-left: 4%;
+    padding-right: 3%;
+    justify-items: center;
+    align-items: center;
+}
+
+.squid-game__navigation img:first-child {
+    justify-self: start;
+}
+
+.squid-game__navigation img:last-child {
+    justify-self: end;
+}
+
+.squid-game__main {
+    height: 75vh;
+    background-image: url(./imgs/main.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.squid-game__main-cont {
+
+}
