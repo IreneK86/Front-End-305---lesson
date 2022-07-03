@@ -2,17 +2,18 @@
 
 body {
     margine: 0;
+    overflow-x: hidden;
 
 }
 
 .life-change {
     width: 100vw;
-    height: 85vh;
+    height: 70vh;
     padding-top: 48px;
     background-image: url(./imgs/lady.svg), url(./imgs/bg.svg);
     background-position: 85% 0, right -100px;
     background-repeat: no-repeat, no-repeat;
-    background-size: 50% , contain;
+    background-size: 40% , contain;
     display: flex;
     flex-wrap: wrap;
 
@@ -86,4 +87,215 @@ button {
     text-decoration: none;
     display: inline-block;
     border-radius: 20px;
+}
+
+.targets {
+    width: 100vw;
+    height: 85vh;
+    background-image: url(./imgs/Group\ 27.svg);
+    background-position: 13%, left;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.targets__content {
+    width: 85%;
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: flex-end;
+    
+
+}
+
+.targets__maintext {
+    width: 45%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-end;
+    align-content: center;
+    
+    
+}
+
+.targets__maintext > h3 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    color: #130F49;
+}
+
+.targets__maintext > p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    color: #130F49;
+    opacity: 0.4;
+}
+
+.target__appstore {
+    width: 160px;
+    height: 76px;
+    border: 1px solid #E6E6E6;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+    color: #130F49;
+}
+
+.track {
+    width: 100vw;
+    height: 135vh;
+    background-image: url(./imgs/Group\ 28.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    display: flex;
+    align-self: flex-end;
+    flex-wrap: wrap;
+}
+
+.track__content {
+    width: 100%;
+    height: 100%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.track__content > p {
+    width: 400px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    color: #130F49;
+    align-self: flex-start;
+}
+
+.track_content-text {
+    width: 30%;
+    height: 80%;
+    padding-right: 306px;
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.track_content-text > p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+    color: #130F49;
+    opacity: 0.4;
+    
+}
+
+.track_content-text-bullets > span {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    color: #130F49;
+}
+
+.track_content-text-bullets > p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #130F49;
+    opacity: 0.4;
+
+}
+
+.calories {
+    width: 85vw;
+    height: 100vh;
+    background-image: url(./imgs/Group\ 30.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+
+}
+
+.calories__content {
+    width: 100%;
+    height: 510px;
+    display: flex;
+}
+
+.calories__maintext {
+    width: 30%;
+    height: 440px;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: center;
+    align-content: center;
+
+}
+
+.calories__maintext > h3 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 63px;
+    letter-spacing: -0.02em;
+    color: #130F49;
+
+}
+
+.calories__maintext > p {
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    color: #130F49;
+    opacity: 0.4;
+}
+
+.calories__appstore {
+    width: 160px;
+    height: 76px;
+    border: 1px solid #E6E6E6;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+    color: #130F49;
 }
