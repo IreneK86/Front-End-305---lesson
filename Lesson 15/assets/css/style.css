@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.shield {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../imgs/casual-life-3d-excited-young-woman-receiving-like-notifications-on-her-laptop\ 1.svg);
+  background-color: #F6F6F6;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.shield__navigation {
+  width: 100%;
+  height: 10%;
+  padding-left: 13%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #03045E;
+}
+/*# sourceMappingURL=style.css.map */
