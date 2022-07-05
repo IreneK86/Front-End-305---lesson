@@ -2,24 +2,115 @@
 
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
 }
 
 .shield {
     width: 100vw;
     height: 100vh;
+    padding-left: 12%;
     background-image: url(../imgs/casual-life-3d-excited-young-woman-receiving-like-notifications-on-her-laptop\ 1.svg);
     background-color: $creamy;
     background-repeat: no-repeat;
     background-position: right;
+    background-size: 32%;
 
+    
     &__navigation {
         width: 100%;
         height: 10%;
-        padding-left: 13%;
+        padding-top: 2%;
         display: flex;
+        justify-content: space-around;
         color: $primary;
+
     }
 
+       &__navigation-content {
+        width: 90%;
+        height: 49px;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    &__navigation-content > ul {
+        list-style-type: none;
+
+        
+    }
+
+    &__navigation-content > ul > li {
+        display: inline;
+        padding-right: 40px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        
+    }
+
+    &__navigation-btn {
+        width: 20%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    &__maincontent {
+        width: 585px;
+        height: 317px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__maincontent > h1 {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 68px;
+        color: #03045E;
+    }
+
+    &__maincontent > p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(3, 4, 94, 0.5);
+    }
 
 }
+
+.button1 {
+    width: 120px;
+    height: 49px;
+    background-color: $primary;
+    border-radius: 5px;
+    border: none;
+    color: $white;
+    align-self: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+button {
+    width: 188px;
+    height: 61px;
+    background-color: $secondary;
+    border-radius: 5px;
+    border: none;
+    color: $white;
+
+}
+
+
