@@ -14,8 +14,10 @@ body {
     background-image: url(../imgs/casual-life-3d-excited-young-woman-receiving-like-notifications-on-her-laptop\ 1.svg);
     background-color: $creamy;
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 32%;
+    background-position: 80%, right;
+    background-size: 30%, contain;
+    display: flex;
+    flex-wrap: wrap;
 
     
     &__navigation {
@@ -60,8 +62,8 @@ body {
     }
 
     &__maincontent {
-        width: 585px;
-        height: 317px;
+        width: 600px;
+        height: 490px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;

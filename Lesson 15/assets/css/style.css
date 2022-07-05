@@ -13,8 +13,13 @@ body {
   background-image: url(../imgs/casual-life-3d-excited-young-woman-receiving-like-notifications-on-her-laptop\ 1.svg);
   background-color: #F6F6F6;
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: 32%;
+  background-position: 80%, right;
+  background-size: 30%, contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .shield__navigation {
   width: 100%;
@@ -59,8 +64,8 @@ body {
           justify-content: flex-start;
 }
 .shield__maincontent {
-  width: 585px;
-  height: 317px;
+  width: 600px;
+  height: 490px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
