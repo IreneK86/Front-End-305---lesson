@@ -21,6 +21,7 @@ body {
     &__navigation {
         width: 100%;
         height: 25%;
+        margin-top: 1%;
         display: flex;
         justify-content:space-between;
         color: white;
@@ -67,9 +68,14 @@ body {
         text-decoration: none;
         display: inline-block;
         font-size: 20px;
-        padding: 15px 32px;
+        padding: 15px 32px;          
         
     }
+
+    .button1:hover {
+        background-color: blue;
+        color: white;
+      }
 
     .button2 {
         background-color: #22A75D;
@@ -84,6 +90,11 @@ body {
         
     }
 
+    .button2:hover {
+        background-color: blue;
+        color: white;
+      }
+
     .tokners__content {
         width: 30%;
         height: 75%;
@@ -92,7 +103,7 @@ body {
         flex-direction: column;
     }
 
-    .bluetext {
+    .blue-text {
         font-family: 'Gothic A1';
         font-style: normal;
         font-weight: 700;
@@ -135,5 +146,14 @@ body {
         display: inline-block;
         font-size: 20px;
         padding: 15px 32px;
+    }
+
+    .button3:hover {
+        background-color: blue;
+        color: white;
+      }
+
+        button {
+        transition-duration: 0.4s;
     }
 }
