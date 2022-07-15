@@ -36,5 +36,21 @@
              </div>
         </div>
     </div>
+
+    <script>
+        function openMenue() {
+            let close = document.getElementsByClassName('close')[0];
+            close.className = "mobile-on material-symbols-outlined close";
+            let menus = document.getElementsByClassName('tokners__navigation-content')[0];
+            menus.className = "tokners__navigation-content"
+        }
+
+        function closeMenue() {
+            let close = document.getElementsByClassName('close')[0];
+            close.className = "mobile-off material-symbols-outlined close";
+            let menus = document.getElementsByClassName('tokners__navigation-content')[0];
+            menus.className = "mobile-off tokners__navigation-content"
+        }
+    </script>
 </body>
 </html>
