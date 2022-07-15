@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&display=swap");
+body {
+  margin: 0;
+  font-family: "Gothic A1", sans-serif;
+  overflow: hidden;
+}
+
+.tokners {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../imgs/img.svg);
+  background-color: rgb(2, 2, 33);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 60%, contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.tokners__navigation {
+  width: 100%;
+  height: 25%;
+  margin-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+.tokners__navigation-content {
+  width: 65%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.tokners__navigation-content > ul {
+  list-style-type: none;
+}
+.tokners__navigation-content > ul > li {
+  display: inline;
+  margin-left: 30px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+}
+.tokners__navigation-btns {
+  width: 35%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.tokners .button1 {
+  background-color: rgb(2, 2, 33);
+  border: none;
+  color: white;
+  border-radius: 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px 32px;
+}
+.tokners .button1:hover {
+  background-color: blue;
+  color: white;
+}
+.tokners .button2 {
+  background-color: #22A75D;
+  border: none;
+  color: white;
+  border-radius: 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px 32px;
+}
+.tokners .button2:hover {
+  background-color: blue;
+  color: white;
+}
+.tokners .tokners__content {
+  width: 30%;
+  height: 75%;
+  padding-left: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.tokners .blue-text {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#2B3087), color-stop(81.99%, #00B4EC)), #FFD100;
+  background: linear-gradient(0deg, #2B3087 0%, #00B4EC 81.99%), #FFD100;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.tokners .tokners__content > h1 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+.tokners .tokners__content > p {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #DDE2FF;
+  opacity: 0.6;
+}
+.tokners .button3 {
+  background-color: #22A75D;
+  border: none;
+  color: white;
+  border-radius: 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px 32px;
+}
+.tokners .button3:hover {
+  background-color: blue;
+  color: white;
+}
+.tokners button {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+/*# sourceMappingURL=style.css.map */
