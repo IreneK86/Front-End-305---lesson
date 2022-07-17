@@ -1,6 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap");
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
+  background-color: #232323;
+  overflow-x: hidden;
+  font-family: "Aleo", serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.bhromaon-header {
+  width: 100%;
+  height: 90%;
+  background-image: url(/Exam/assets/imgs/header\ img.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%, contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.bhromaon-header__title {
+  width: 100%;
+  height: 80%;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bhromaon-header__title h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  letter-spacing: 4.8px;
+}
+.bhromaon-header__title p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+}
+
+.search-container {
+  height: 63px;
+  width: auto;
+}
+.search-container input {
+  width: 503px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  color: #999999;
+  top: 18px;
+  left: 113px;
+}
+.search-container button {
+  width: 92px;
+  background-color: #496BFE;
+  color: #FFFFFF;
+  border: none;
+  padding: 3px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+.search-container button:hover {
+  background-color: green;
+  color: white;
+}
+
+.bhromaon-navigation-bar {
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #496BFE;
+}
+.bhromaon-navigation-bar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.bhromaon-navigation-bar__menu li {
+  list-style: none;
+  color: #FFFFFF;
+  padding: 2%;
+  cursor: pointer;
+}
+
+.bhromaon-main {
+  width: 100%;
+  height: 60%;
+}
+.bhromaon-main__page {
+  width: 100%;
+  height: 100%;
+  background-image: url(/Exam/assets/imgs/Rectangle\ 41444.svg);
+  background-repeat: no-repeat;
+  background-size: 100%, contain;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.bhromaon-main__media {
+  width: 40%;
+  height: auto;
+  padding-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bhromaon-main__text {
+  width: 35%;
+  height: auto;
+  padding-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+.bhromaon-main__text h2 {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+.bhromaon-main__text p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+}
+.bhromaon-main__text button {
+  width: 228px;
+  background-color: #496BFE;
+  color: #FFFFFF;
+  border: none;
+  padding: 14px 28px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+}
+.bhromaon-main__text button:hover {
+  background-color: green;
+  color: white;
+}
+.bhromaon-main__howitworks {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.bhromaon-main__Spain {
+  width: 100%;
+  height: 100%;
+  background-image: url(/Exam/assets/imgs/Rectangle\ 414\ 45.svg);
+  background-repeat: no-repeat;
+  background-size: 100%, contain;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.bhromaon-main__SpainHouse {
+  width: 30%;
+  margin-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #232323;
+  opacity: 0.9;
+}
+.bhromaon-main__SpainHouse h5 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  color: #E8E8E8;
+}
+.bhromaon-main__SpainHouse h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.bhromaon-main__SpainHouse p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #E8E8E8;
+}
+.bhromaon-main__SpainHouse button {
+  width: 228px;
+  background-color: #496BFE;
+  color: #FFFFFF;
+  border: none;
+  padding: 14px 28px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.bhromaon-main__SpainHouse button:hover {
+  background-color: green;
+  color: white;
+}
+.bhromaon-main__SpainSea {
+  width: 30%;
+  margin-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #232323;
+  opacity: 0.9;
+}
+.bhromaon-main__SpainSea h5 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  color: #E8E8E8;
+}
+.bhromaon-main__SpainSea h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.bhromaon-main__SpainSea p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #E8E8E8;
+}
+.bhromaon-main__SpainSea button {
+  width: 228px;
+  background-color: #496BFE;
+  color: #FFFFFF;
+  border: none;
+  padding: 14px 28px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.bhromaon-main__SpainSea button:hover {
+  background-color: green;
+  color: white;
+}
+.bhromaon-main__testimonial {
+  width: 100%;
+  height: auto;
+  background-image: url(/Exam/assets/imgs/Rectangle\ 4142\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: 100%, contain;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.bhromaon-main__testimonial h2 {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.bhromaon-main__testimonial h3 {
+  padding-left: 10%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.bhromaon-main__testimonial p {
+  padding-left: 10%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+.bhromaon-main__testimonial img {
+  padding-left: 5%;
+}
+
+.bhromaon-footer {
+  width: 100%;
+  background-color: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bhromaon-footer__content {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
