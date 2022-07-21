@@ -32,7 +32,13 @@ let distance = prompt('Enter the distance in km between the two cities (km)');
 let time = prompt('Enter the time you want to cover it within (h)');
 let speed = parseInt(distance) / parseInt(time);
 console.log(speed);
-alert('Result is ' + speed + ' km/hour' )
+alert('Result is ' + speed + ' km/hour')
+
+let usdCurrency = prompt('Enter some sum $: ');
+const exchangeRate = 0.98;
+let currencyConverter = exchangeRate * parseInt(usdCurrency);
+console.log(currencyConverter);
+alert('You will get ' + currencyConverter + ' EUR')
 
 
 
